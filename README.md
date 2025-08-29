@@ -32,19 +32,3 @@ y_pred = model.predict(X_test)
 evaluate_model("Logistic Regression", y_test, y_pred, model, X_test)
 
 
-
----
-
-### 🔹 Where each part goes
-- **Usage** → inside `README.md` (under a heading `## Usage`)  
-- **License** → also in `README.md` (usually at the end)  
-
-👉 If you want to be extra professional, you can also create a separate `LICENSE` file (GitHub can auto-generate it for you when you create the repo → Add file → Create new file → name it `LICENSE` → choose MIT).  
-
----
-
-✅ So: Both **Usage** and **License** sections live in your **README.md** file, unless you add a separate `LICENSE` file.  
-
----
-
-Do you want me to also create the **requirements.txt** content (all the libraries your project needs) so you can add that too?
